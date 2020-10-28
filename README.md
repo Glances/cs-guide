@@ -1,3 +1,38 @@
+> 为了保证这篇文章后续能够继续完善，我已近将其同步到了我的 Github：[https://github.com/Snailclimb/cs-guide](https://github.com/Snailclimb/cs-guide) （欢迎扩散，让更多学姐看到。有帮助就点个 star 鼓励一下🤟）
+
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- code_chunk_output -->
+
+- [前言](#前言)
+- [程序员必备的好习惯](#程序员必备的好习惯)
+- [编程语言](#编程语言)
+- [计算机基础课](#计算机基础课)
+  - [数据结构](#数据结构)
+  - [算法](#算法)
+  - [计算机网络](#计算机网络)
+  - [操作系统](#操作系统)
+- [计算机专业课](#计算机专业课)
+  - [面向对象程序设计](#面向对象程序设计)
+  - [形式语言与自动机](#形式语言与自动机)
+  - [机器学习](#机器学习)
+  - [数据库系统](#数据库系统)
+  - [编译原理](#编译原理)
+- [通用课](#通用课)
+  - [数学](#数学)
+    - [微积分（高等数学）](#微积分高等数学)
+    - [线性代数（高等代数）](#线性代数高等代数)
+    - [概率论与数理统计](#概率论与数理统计)
+    - [离散数学（集合论、图论、近世代数等）](#离散数学集合论-图论-近世代数等)
+  - [英语](#英语)
+- [Q&A](#qa)
+
+<!-- /code_chunk_output -->
+
+
+## 前言
+
 网上已经有挺多关于“计算机专业大学四年到底应该学什么？”相关的文章了。不过，既然学姐问了我这个问题，我还是想再从我的角度来给她回答一下。安排！
 
 另外，这篇文章中我不光会推荐你学习什么，还会推荐对应的比较好的学习资料给你。
@@ -22,7 +57,7 @@
 
 我把我知道的一些程序员必备的好习惯毫无保留地都整理在了这个仓库：[https://github.com/Snailclimb/programmer-advancement ](https://github.com/Snailclimb/programmer-advancement "https://github.com/Snailclimb/programmer-advancement ") ，强烈推荐大家看看，同时也期待你的完善补充！
 
-<img src="https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/2020-10/image-20201012094246277.png" style="zoom:50%;" />
+![](https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/2020-10/image-20201012094246277.png)
 
 **然后，就是编程语言了！**
 
@@ -44,7 +79,7 @@
 
 还有开设 C++课程的高校也比较多。初学者学习 C++的教材可以使用《C++ Primer》，熟练掌握基础语法后，为了进一步提高自己的编程开发能力，还可以读一读《C++ Primer Plus》和《Effective C++》。
 
-<img src="https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/2020-09/image-20201011214249127.png" alt="image-20201011214249127" style="zoom:50%;" />
+![](https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/2020-09/image-20201011214249127.png)
 
 实际上，大一初学编程的小伙伴在刚开始学编程语言的时候都会很吃力，以上推荐教材的正确使用方法有两个要点：
 
@@ -67,6 +102,10 @@
 2. **技术更新换代快** ：我们前几年可能还在用 Spring 基于传统的 XML 开发，现在几乎大家都会用 Spring Boot 这个开发利器来提升开发速度，再比如几年前我们使用消息队列可能还在用 ActiveMQ，到今天几乎都没有人用它了，现在比较常用的就是 Rocket MQ、Kafka 。技术更新换代这么快的今天，你是无法把每一个框架/工具都学习一边的，底层技术就是你快速上手他们的瑞士军刀。
 3. **懂得底层技术的人更有竞争力** ：现在的程序员这么多，你如何能和别人拉开差距？单纯就靠使用框架的能力么？这些随便从培训班抽一个人可能都会做的工作无法成为你的核心竞争力。
 
+一些计算机的原创PDF下载地址： https://pan.baidu.com/s/1dDoGv-Qlz2pJOcLJHHpxpw  密码: llst
+
+![](https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images-2@main/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A/image-20201027160348395.png)
+
 ### 数据结构
 
 关于数据结构，我想说的是，它是这四大件中**最简单、最基础**的一个。离开了数据结构，几乎任何的程序都会失效，所以在讨论数据结构的时候，常常要把算法也连带着说一说。
@@ -75,11 +114,11 @@
 
 在数据结构的学习中，**强烈建议**跟着名校的网课学习，这些课程都经过多次打磨，配套练习丰富，非常适合初学者。比如中国大学 MOOC 上的武汉大学开设的《数据结构》课程。
 
-<img src="https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/2020-09/%E6%AD%A6%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.png" style="zoom:50%;" />
+![](https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/2020-09/%E6%AD%A6%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.png)
 
 辅以教材参考书，**强推《大话数据结构》**，光看封面你就知道这本书的风格了，图解学数据结构？选这本，没错的！
 
-<img src="https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/2020-09/%E5%A4%A7%E8%AF%9D%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.jpg" style="zoom:27%;" />
+![](https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/2020-09/%E5%A4%A7%E8%AF%9D%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.jpg)
 
 当用图解理清了各种数据结构的原理和特性之后，还要在代码中多加练习，熟能生巧。
 
@@ -110,12 +149,12 @@
 
 再附上一些算法领域的经典学习参考书（对于初学者，推荐程度从左向右……）：
 
-<img src="https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/2020-10/image-20201012084013853.png" alt="image-20201012084013853" style="zoom:50%;" />
+![](https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/2020-10/image-20201012084013853.png)
 
-下面这两篇文章都非常不错，一定要好好看一下：
+下面这两篇文章非常不错，一定要好好看一下：
 
-- [《硬核的算法学习书籍+资源推荐》](docs/dataStructures-algorithms/算法学习资源推荐.md "《硬核的算法学习书籍+资源推荐》") 。
-- [如何刷 Leetcode?](https://www.zhihu.com/question/31092580/answer/1534887374 "如何刷 Leetcode?")
+1. [如何刷 Leetcode?](https://www.zhihu.com/question/31092580/answer/1534887374 "如何刷 Leetcode?")
+2. [求推荐一些好的算法书？](https://www.zhihu.com/question/323359308/answer/1545320858)
 
 ### 计算机网络
 
@@ -127,14 +166,14 @@
 Data to Drag
 关于这门课，首先强烈推荐参考书是**机械工业出版社的《计算机网络——自顶向下方法》**。该书目录清晰，按照 TCP/IP 五层模型逐层讲解，对每层涉及的技术都展开了详细讨论，基本上高校里开设的课程的教学大纲就是这本书的目录了。
 
-<img src="https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/2020-10/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.jpg" style="zoom:50%;" />
+![](https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/2020-10/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.jpg)
 
 如果你觉得上面这本书看着比较枯燥的话，我强烈推荐+安利你看看下面这两本非常有趣的网络相关的书籍：
 
 - [《图解 HTTP》](https://book.douban.com/subject/25863515/ "《图解 HTTP》") ： 讲漫画一样的讲 HTTP，很有意思，不会觉得枯燥，大概也涵盖也 HTTP 常见的知识点。因为篇幅问题，内容可能不太全面。不过，如果不是专门做网络方向研究的小伙伴想研究 HTTP 相关知识的话，读这本书的话应该来说就差不多了。
 - [《网络是怎样连接的》](https://book.douban.com/subject/26941639/ "《网络是怎样连接的》") ：从在浏览器中输入网址开始，一路追踪了到显示出网页内容为止的整个过程，以图配文，讲解了网络的全貌，并重点介绍了实际的网络设备和软件是如何工作的。
 
-<img src="https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/2020-10/image-20201011215144139.png" style="zoom:50%;" />
+![](https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/2020-10/image-20201011215144139.png)
 
 如果说学习计算机网络要围绕的 TCP/IP 五层模型逐层展开学习的话，那么针对每层的学习，就要以协议为单位了。一言以蔽之，我们学习计算机网络需要的协议有：
 
@@ -186,15 +225,15 @@ Data to Drag
 
 这篇文章的目录如下，涵盖了操作系统一些比较常见的问题。
 
-<img src="https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/2020-10-12/image-20201012191016412.png" alt="image-20201012191016412" style="zoom:50%;" />
+![](https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/2020-10-12/image-20201012191016412.png)
 
 如果你要系统地学习操作系统的话，最硬核最权威的书籍是**《操作系统导论》** 。你可以再配套一个 **《深入理解计算机系统》** 加深你对计算机系统本质的认识，美滋滋！
 
-<img src="https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/2020-10-12/image-20201012191645919.png" alt="image-20201012191645919" style="zoom:50%;" />
+![](https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/2020-10-12/image-20201012191645919.png)
 
 如果你比较喜欢动手，对于理论知识比较抵触的话，我推荐你看看《30 天自制操作系统》，这本书会手把手教你编写一个操作系统。
 
-![30天自制操作系统](https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/2020-10-12/s11138117.jpg)
+![](https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/2020-10-12/s11138117.jpg)
 
 ## 计算机专业课
 
@@ -259,11 +298,11 @@ OOP 中还有六大原则：
 
 在学习的过程中，除了跟着老师在课堂上的逐步讲解和推导，课下还可以结合着 B 站上的 **“白板机器学习”** 来看，推导非常详细，小哥哥也非常耐心。
 
-<img src="https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/%E7%99%BD%E6%9D%BFml.png" style="zoom:67%;" />
+![](https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/%E7%99%BD%E6%9D%BFml.png)
 
 参考书的话，这里有两本推荐的书，**一本是“西瓜书”——周志华的《机器学习》。** 西瓜书中的案例场景围绕着“种西瓜”展开，比较能带动读者兴趣，但是该书涉及符号较多，读者最好有一定的代数能力素养，可以尽快适应该书的符号表达和公式推导。该书比较适合慢慢研读，内容在机器学习领域不算深，一点点啃会有不小的收获。**另一本书是李航的《统计学习方法》，** 该书不仅适合计算机专业的学生，也适合数理统计专业的学生，书中每章都围绕着一个个经典算法展开，推导过程详细，篇幅也不长，但内容相对西瓜书来说比较枯燥，适合作为工具书来读，需要学习某个算法的时候，去该书上找那一章节，快速读完，不懂的话可以多读几遍。
 
-<img src="https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/image-20201012193144998.png" alt="image-20201012193144998" style="zoom:50%;" />
+![](https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/image-20201012193144998.png)
 
 ### 数据库系统
 
@@ -277,11 +316,11 @@ OOP 中还有六大原则：
 
 教材的话，**强烈推荐**《数据库系统概念》（机械工业出版社），这本书涵盖了数据库系统的全套概念，知识体系清晰，是学习数据库系统**非常经典的教材！不是参考书！**
 
-<img src="https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E6%A6%82%E5%BF%B5.jpg" style="zoom:45%;" />
+![](https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E6%A6%82%E5%BF%B5.jpg)
 
 参考书的话，可以看一看《深入浅出 MySQL：数据库开发、优化与管理维护》，该书非常适合 MySQL 开发的从业者，完全可以作为 MySQL 学习的参考书，相比《数据库系统概念》来说，该书更加倾向于基于 MySQL 技术的全套开发，一共分为基础篇、开发篇、优化篇、管理维护篇和架构篇。
 
-<img src="https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BAMySQL.jpg" style="zoom:60%;" />
+![](https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BAMySQL.jpg)
 
 ### 编译原理
 
@@ -295,7 +334,7 @@ OOP 中还有六大原则：
 
 总的来说，这门课对于各位程序员的职业发展来说，相对不那么重要，但是从难度上来说，学习这门课可以对编程思想有一个较好的巩固。学习资源的话，除了课堂上的幻灯片课件以外，还可以把《编译原理》（机械工业出版社）这本书作为参考书，用以辅助自己学不懂的地方（大家口中的龙书，想要啃下来还是有一定难度的）。
 
-<img src="https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86.jpg" style="zoom:50%;" />
+![](https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86.jpg)
 
 ## 通用课
 
@@ -348,6 +387,8 @@ OOP 中还有六大原则：
 
 就笔者所就读的高校来说，我是相信它的培养方案是有能力培养出具有就业能力的本科毕业生的。我相信很多名校的培养方案也都不会差。如果你就读的学校不是那么出色，并且质疑自己学校的培养能力的话，建议你多到名校的网课上取取经。如果你是就读于国内名校的话，请相信的自己专业的培养方案，下限不会低。
 
+另外，如果你的学校比较差的话，大学期间一定要尽全力让自己的简历更好看，你可以出去实习、参加一些含金量比较高的比赛、跟着老师做一些项目。
+
 **2.学校里需要参加一些社团、学生会之类的吗？**
 
 笔者只参加过社团，并未参加过学生会。对于这个问题，我结合我所接触的人来简单回答一下。针对不同的发展定位，可以选择自己投入社团、学生会的精力。比如，你是一个技术宅，那么我想你就算加入了社团之类的团体，也收获不到自己想要的能力，其实就没有参加的必要了。如果你是一个学生干部，或者擅长和人打交道，也许毕业之后从事产品经理之类的工作，那么在学生会的经历应该是蛮锻炼你的能力的。是否要选择参加团体活动，投入多少精力，完全取决你对自己的定位如何，请把你自己放到合适的环境下培养，不必人云亦云。
@@ -356,7 +397,7 @@ OOP 中还有六大原则：
 
 竞赛比赛对于学生的好处有，得奖了的话可能会获得保研加分、丰富个人简历，在应聘中拿到不错的印象分。保研加分具体涉及到的竞赛需要咨询所在学院，并非所有竞赛获奖都能加分的。
 
-那么竞赛比赛有没有坏处呢？也会有一点吧，就是指那些能力并不算强，但仍然把大量时间花在了打比赛这上面，这其实并不是坏处，这对个人能力仍有提高，**坏处指的是因为打竞赛耽误了专业课的学习。**这样一来，基础也没扎实，突出能力也没训练出来，捡了芝麻丢了西瓜，就不好了。
+那么竞赛比赛有没有坏处呢？也会有一点吧，就是指那些能力并不算强，但仍然把大量时间花在了打比赛这上面，这其实并不是坏处，这对个人能力仍有提高，**坏处指的是因为打竞赛耽误了专业课的学习。** 这样一来，基础也没扎实，突出能力也没训练出来，捡了芝麻丢了西瓜，就不好了。
 
 总的来说，打竞赛利大于弊，**不要低估的自己的能力而排斥参加竞赛，也不要高估自己的能力过分痴迷竞赛**。
 
